@@ -6,7 +6,6 @@ use \core\Model;
 
 class Usuario extends Model
 {
-    // $tableName e $db já estão declarados na class Model
     public function __construct()
     {
         parent::__construct();

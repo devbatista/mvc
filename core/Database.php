@@ -11,8 +11,4 @@ class Database {
         }
         return $this->pdo;
     }
-
-    // public function __construct() { }
-    // public function __clone() { }
-    // public function __wakeup() { }
 }

@@ -6,14 +6,14 @@ use \core\Database;
 
 class Model
 {
-
-    protected $_h;
     public $db;
+    public $tableName;
     
     public function __construct()
-    {
+    {   
         $this->db = new Database();
         $this->db = $this->db->getInstance();
+        $this->tableName = $this->getTableName();
     }
 
     public function getTableName()

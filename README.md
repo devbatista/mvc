@@ -51,7 +51,7 @@ class Jogador extends Model {
 
 ## Modelo de CONTROLLER
 ```php
-<?php?>
+<?php
 namespace src\controllers;
 use \core\Controller;
 use \src\models\Classe;
